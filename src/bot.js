@@ -8,9 +8,9 @@ client.login(process.env.DISCORDJS_BOTT_TOKEN);
 client.on('message',(message)=>{
     if(message.author.bot)
     return;
-    if(message.content=='radhika aur prayag chutiya')
+    if(message.content=='hello')
     {
-        message.channel.send('radhika aur prayag chutiya');
+        message.channel.send('welcome here');
     }
     if(message.content=='bye')
     {
